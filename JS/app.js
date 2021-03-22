@@ -13,4 +13,8 @@ for (const task of todoList) {
     }
 }
 
-// completedTodos.forEach(fucntion(task){const {todo} = task; console.log(todo); })
+completedTodos.forEach(task => {
+        const {todo} = task
+        console.log(todo)
+    }
+)
